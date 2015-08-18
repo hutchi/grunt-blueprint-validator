@@ -1,7 +1,7 @@
 {
   "name": "grunt-blueprint-validator",
   "description": "Validates Blueprint files by running Dredd against Drakov.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/Aconex/grunt-blueprint-validator",
   "author": {
     "name": "Marcelo Garcia de Oliveira",
