@@ -1,0 +1,46 @@
+{
+  "name": "grunt-blueprint-validator",
+  "description": "Validates Blueprint files by running Dredd against Drakov.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Aconex/grunt-blueprint-validator",
+  "author": {
+    "name": "Marcelo Garcia de Oliveira",
+    "email": "moliveira@aconex.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aconex/grunt-blueprint-validator"
+  },
+  "bugs": {
+    "url": "https://github.com/Aconex/grunt-blueprint-validator/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Aconex/grunt-blueprint-validator/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "drakov": "^0.1.11",
+    "dredd": "^1.0.0",
+    "lodash": "^3.10.1"
+  }
+}
